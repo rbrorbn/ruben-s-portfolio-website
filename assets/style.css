@@ -605,19 +605,7 @@ nav li:hover {
   line-height: 1.5;
   font-size: 0.9rem;
   color: var(--second-color);
-  position: relative;
   text-align: center;
-}
-
-.container-section3 li:first-child::before {
-  content: "";
-  background: rgba(239, 239, 239, 0.8);
-  width: 70%;
-  height: 1px;
-  position: absolute;
-  left: 50%;
-  top:  -50%;
-  transform: translateX(-50%);
 }
 
 /* *****RESPONSIVE******** */
