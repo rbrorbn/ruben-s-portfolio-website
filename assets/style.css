@@ -313,7 +313,7 @@ nav li:hover {
     height: 120px;
   }
 
-  .propos-container h2 {
+  .propos-container p{
     font-size: 1.2rem;
   }
 
@@ -337,8 +337,12 @@ nav li:hover {
     height: 100px;
   }
 
-  .propos-container h2 {
+  .propos-container p{
     font-size: 1rem;
+  }
+
+  .propos-container h1{
+    font-size:1.5rem;
   }
 
   .propos-container button {
@@ -367,17 +371,26 @@ nav li:hover {
     height: 60px;
   }
 
-  .propos-container h2 {
-    font-size: 0.7rem;
+  .propos-container{
+    gap:10px;
+  }
+
+  .propos-container p{
+    font-size: 0.6rem;
+  }
+
+  .propos-container h1{
+    font-size:1rem;
   }
 
   .propos-container button {
     font-size: 0.7rem;
     padding: 3px 6px;
+    margin-top: 10px;
   }
 
   .loader {
-    font-size: 0.7rem;
+    font-size: 0.5rem;
     gap: 3px;
   }
 
