@@ -225,7 +225,7 @@ nav li:hover {
   gap: 20px;
 }
 
-.propos-container h2 {
+.propos-container p {
   font-family: "Hind, sans-serif";
   font-weight: 500;
   letter-spacing: 1px;
@@ -571,7 +571,7 @@ nav li:hover {
   color: var(--first-color);
 }
 
-.container-section3 h1 {
+.container-section3 h2 {
   font-family: "Poppins, sans-serif";
   font-weight: bold;
   letter-spacing: 1px;
@@ -590,7 +590,7 @@ nav li:hover {
   text-align: center;
 }
 
-.container-section3 h2 {
+.container-section3 h3 {
   font-family: "Poppins, sans-serif";
   font-weight: bold;
   letter-spacing: 1px;
@@ -632,7 +632,7 @@ nav li:hover {
         gap: 15px;
     }
 
-    .container-section3 h1 {
+    .container-section3 h2 {
         font-size: 1rem;
     }
 
@@ -656,11 +656,11 @@ nav li:hover {
           gap: 15px;
       }
   
-      .container-section3 h1 {
+      .container-section3 h2 {
           font-size: 1rem;
       }
 
-      .container-section3 h2 {
+      .container-section3 h3 {
         font-size: 0.8rem;
     }
   

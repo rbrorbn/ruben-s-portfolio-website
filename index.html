@@ -4,40 +4,47 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/style.css" />
-    <meta name="Ribeiro ruben" content="Portfolio">
     <link rel="icon" href="/assets/img/favicon.ico" type="image/x-icon">
     <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
     />
-    <title>RIBEIRO Ruben | Website portfolio</title>
+    <title>Ruben Ribeiro - Développeur Web | BTS SIO SLAM | Alternance IT</title>
+    <meta name="description" content="Portfolio de Ruben Ribeiro, développeur web en alternance (BTS SIO SLAM) basé en Île-de-France. Création de sites, apps et solutions sur mesure.">
+    <meta property="og:title" content="RIBEIRO Ruben - Développeur web en alternance en île-de-france | BTS SIO SLAM" />
+    <meta property="og:type" content="website"/>
+    <meta proprerty="og:description" content="Portfolio de RIBEIRO Ruben, développeur web en alternance, étudiant en BTS SIO SLAM. Créations de sites, apps et solutions informatiques en île-de-france.">
+    <meta property="og:url" content="https://rubenribeiro.fr/"/>
+    <meta property="og:image" content="https://rubenribeiro.fr/assets/img/log.png" />
+    <meta property="og:site_name" content="Ruben Ribeiro Website Portfolio" />
+    <meta name="keywords" content="Développeur Web, Portfolio, Alternance, BTS SIO SLAM, Ruben Ribeiro, Île-de-France, HTML, CSS, JavaScript" />
   </head>
   <body>
     <header>
       <nav>
-        <a href="index.html"><img src="./assets/img/log.png" alt="Logo"></a>
+        <a href="index.html" id="logo"><img src="./assets/img/log.png" alt="Logo"></a>
         <div class="toggle" onclick="toggleMenu();">
           <i class="fa-solid fa-bars"></i>
         </div>
         <ul id="nav-links">
           <a href="#presentation"  rel="noopener noreferrer">
-        <li>à propos</li>
+          <li>à propos</li>
           </a>
           <a href="#skills"  rel="noopener noreferrer">
-        <li>skills</li>
+          <li>skills</li>
           </a>
           <a href="#ecole"  rel="noopener noreferrer">
-        <li>école</li>
+          <li>école</li>
           </a>
           <a href="#avantages"  rel="noopener noreferrer">
-        <li>compétences</li>
+          <li>compétences</li>
           </a><a href="#project" rel="noopener noreferrer">
-      <li>projets</li>
+          <li>projets</li>
           <a href="#contact" rel="noopener noreferrer">
-        <li id="last-child">contacts</li>
+          <li id="last-child">contacts</li>
           </a>
         </a>
         
@@ -48,11 +55,11 @@
     <main>
       <section id="a-propos" class="section-1">
         <div class="propos-content">
-          <img src="./assets/img/Rbn.jpg" alt="" />
+          <img src="./assets/img/rbn2.png" alt="Photo de profil du développeur web RIBEIRO Ruben" />
           <div class="propos-container">
             <div class="card">
               <div class="loader">
-                <p>RIBEIRO Ruben</p>
+                <h1>RIBEIRO Ruben</h1>
                 <div class="words">
                   <span class="word">BIENVENUE.</span>
                   <span class="word">SUR MON.</span>
@@ -63,11 +70,11 @@
               </div>
             </div>
             
-            <h2>
-              Enchanté, j'ai 23 ans, également jeune diplomé en BTS MCO depuis Fin
-              AOUT 2022. Je souhaiterais me reconvertir en tant que Développeur
-              chez vous !
-            </h2>
+            <p>
+              Enchanté, j'ai 23 ans, également jeune <strong>diplomé en BTS MCO</strong> depuis Fin
+              AOUT 2022. Je souhaiterais me reconvertir en tant que <strong>Développeur Web en alternance</strong>
+              en Ile-de-france !
+            </p>
             <a href="/assets/img/CV-RIBEIRO.Ruben-developpeur.web .pdf" target="_blank"
               ><button>
                 Mon cv <i class="fa-solid fa-arrow-up-from-bracket"></i></button
@@ -111,20 +118,20 @@
         <div class="box">
           <div class="container-section3">
             <i class="fa-solid fa-circle-user"></i>
-            <h1>Hard skills</h1>
+            <h2>Hard skills</h2>
             <p>
               Des langages que j'ai su apprendre seul, que je continue de
               perfectionner au cours de divers plateformes et formations
             </p>
 
-            <h2>Langages de programmation :</h2>
+            <h3>Langages de programmation :</h3>
             <ul>
               <li>Html</li>
               <li>Css</li>
               <li>JavaScript</li>
             </ul>
 
-            <h2>Langues maîtrisées :</h2>
+            <h3>Langues maîtrisées :</h3>
             <ul>
               <li>Portugais (C2)</li>
               <li>Français (C2)</li>
@@ -135,13 +142,13 @@
 
           <div class="container-section3">
             <i class="fa-solid fa-circle-info"></i>
-            <h1>Soft skills</h1>
+            <h2>Soft skills</h2>
             <p>
               En effet, au cours de mes différentes expériences, j'ai pu
               acquérir quelques soft skills necessaire pour le développement.
             </p>
 
-            <h2>Les compétences :</h2>
+            <h3>Les compétences :</h3>
             <ul>
               <li>Curiosité et apprentissage continu</li>
               <li>Esprit d'équipe</li>
@@ -156,19 +163,19 @@
 
           <div class="container-section3">
             <i class="fa-solid fa-file"></i>
-            <h1>Diplômes et cerfications :</h1>
+            <h2>Diplômes et cerfications :</h2>
             <p>
               Je détiens un diplôme en vente ainsi que quelques certifications
               en développement informatique.
             </p>
 
-            <h2>Mes diplômes :</h2>
+            <h3>Mes diplômes :</h3>
             <ul>
               <li>Baccalauréat Technologique STMG Mercatique (2020)</li>
               <li>BTS Management Comercial Opérationnel (2023)</li>
             </ul>
 
-            <h2>Mes certifications :</h2>
+            <h3>Mes certifications :</h3>
             <ul>
               <li>Html et Css - Mimo (2025)</li>
             </ul>
@@ -192,7 +199,7 @@
             <i class="fa-solid fa-user-doctor"></i>
             <h3>Expertise</h3>
             <p>La Faculté des Métiers est une école spécialisée en informatique, notamment en cybersécurité et en développement. Elle m’a semblé être un choix particulièrement pertinent, tant pour moi que pour les entreprises recherchant des alternants compétents et rapidement opérationnels.</p>
-            <a href="https://www.facmetiers91.fr/presentation/" target="_blank"><button>En savoir plus</button></a>
+            <a href="https://www.facmetiers91.fr/presentation/" target="_blank"><button>Faculté des métiers de Massy</button></a>
           </div>
         </div>
       </section>
@@ -248,19 +255,19 @@
           <h2>Mes réalisations</h2>
             <div class="section-6-content">
               <div class="Project">
-                <a href="https://coruscating-tarsier-dfbaf0.netlify.app/" target="_blank"><img src="./assets/img/site-portfolio-1.png" alt="Capture d'écran du projet Adaptabilité">
+                <a href="https://coruscating-tarsier-dfbaf0.netlify.app/" target="_blank"><img src="./assets/img/site-portfolio-1.png" alt="Capture d'écran du projet de mon 1er portfolio débutant">
                 <h3>1er portfolio débutant</h3>
                 <p>Html, Css, javascript</p>
                 </a>
               </div>
               <div class="Project">
-                <a href="https://mellow-custard-cf2d84.netlify.app/" target="_blank"><img src="./assets/img/gaming.png" alt="Capture d'écran du projet Adaptabilité">
+                <a href="https://mellow-custard-cf2d84.netlify.app/" target="_blank"><img src="./assets/img/gaming.png" alt="Capture d'écran du projet du site gaming crée">
                 <h3>Site gaming</h3>
                 <p>Html, Css</p>
                 </a>
               </div>
               <div class="Project">
-                <a href="https://strong-rugelach-b6adeb.netlify.app/" target="_blank"><img src="./assets/img/run.png" alt="Capture d'écran du projet Adaptabilité">
+                <a href="https://strong-rugelach-b6adeb.netlify.app/" target="_blank"><img src="./assets/img/run.png" alt="Capture d'écran du projet du site running crée">
                 <h3>Site runing</h3>
                 <p>Html, Css</p>
                 </a>
